@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FSR Pressure Simulation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>FSR Pressure Logger Simulation</h1>
+  <div class="container">
+    <label for="fsr">FSR Pressure:</label>
+    <input type="range" id="fsr" name="fsr" min="0" max="1023" value="0">
+    <div id="led" class="led-off"></div>
+  </div>
+  <canvas id="graph" width="600" height="300"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
